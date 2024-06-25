@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bmi Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="body-wrapper">
+      <h2>Know Your Body Mass Index Ranking</h2>
+      <div class="input-wrapper">
+        <input
+          autocomplete="off"
+          autofocus
+          id="weight"
+          placeholder="Put in your weight in kg, fatty"
+          type="text"
+        />
+        <input
+          autocomplete="off"
+          id="height"
+          placeholder="Put in your height in m2, shorty"
+          type="text"
+        />
+      </div>
+      <button onclick="checkBmi()"><span>My bmi</span></button>
+
+      <p id="result"></p>
+    </div>
+  </body>
+</html>
